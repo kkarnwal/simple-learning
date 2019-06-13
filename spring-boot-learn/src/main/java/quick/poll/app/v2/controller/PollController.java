@@ -35,6 +35,9 @@ import quick.poll.app.dao.PollRepository;
 import quick.poll.app.misc.ResourceNotFoundException;
 import quick.poll.app.model.Poll;
 
+/**
+ * 
+ */
 @RequestMapping("/v2")
 @RestController("pollControllerV2")
 @Api(value = "Polls", description = "poll api.")
