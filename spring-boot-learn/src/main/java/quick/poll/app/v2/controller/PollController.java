@@ -36,7 +36,7 @@ import quick.poll.app.misc.ResourceNotFoundException;
 import quick.poll.app.model.Poll;
 
 /**
- * 
+ * kkarnwal
  */
 @RequestMapping("/v2")
 @RestController("pollControllerV2")
