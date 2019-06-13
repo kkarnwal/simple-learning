@@ -81,6 +81,7 @@ public class PollController {
 		HttpHeaders responseHeaders = new HttpHeaders();
 		responseHeaders.setLocation(uri);
 		
+
 		return new ResponseEntity<>(null, responseHeaders, HttpStatus.CREATED);
 	}
 
